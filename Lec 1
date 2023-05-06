@@ -11,3 +11,5 @@ What's inside Web-app ?
 2. Backend -> Brain of webapp (Node.Js)
 3. Database -> NoSQL, SQL, MongoDB, etc.
 
+Full Stack Web Developer = Frontend + Backend + Databases
+e.g. MERN stack - MongoDb, Express.js, React, Node.js

@@ -1,0 +1,13 @@
+Web:  System where all documents, resources, media are present  and these are accessed via internet. 
+So, the web is defined as a smaller entity inside a bigger entity called internet or web is subset of internet. 
+
+Web Development is used for creating lots of websites, webapps. 
+
+Websites are static content.  Read-only content. No User interaction.
+Webapps are dynamic content. Both Read-write content. User interaction takes place.
+
+What's inside Web-app ?
+1. Frontend/ UI ->HTML, CSS, Javascript, React
+2. Backend -> Brain of webapp (Node.Js)
+3. Database -> NoSQL, SQL, MongoDB, etc.
+

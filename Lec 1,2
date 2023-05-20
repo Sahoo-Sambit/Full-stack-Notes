@@ -51,7 +51,7 @@ What are clients and servers?
 
 There are various types of requests:
 1. get: client Fetch data request from server.
-2. post: client sends data which saves in server.
+2. post: client sends data or creates new data which saves in server.
 3. put: client requests any updation in server.
 4. delete: client sends delete request to server.
 

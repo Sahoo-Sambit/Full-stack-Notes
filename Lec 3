@@ -1,0 +1,52 @@
+What is internet?
+-> Interconnected Networks
+-> Network of Networks
+
+History of Internet :
+1960 : ARPANET
+1980 : DNS / WWW
+1990 : email / message / shopping
+2000 : FB / GOOGLE
+Today : AI / Data scrapping, analysis, streaming, uploads,etc.
+
+ISP : A medium used to access internet. Rental monthly charges by provider to provide server IP address.
+Packets : A huge file is break into small chunks of data so, that it can be transferred through internet from client to server or viceversa
+
+Protocols : Set of rules.
+
+4 layers of network :
+Client                   requests           Server
+1. Application layer   <--XYZ app           1. Application layer
+2. TCP                 <--Port No.          2. TCP
+3. IP                  <--IP address        3. IP
+4. Hardware  --------->Internet -------->   4. Hardware
+
+
+client --> requests through router(connects multiple devices) ---> ISP ---> Searches IP address.
+
+How packets travel over internet ? 
+Client -> Requests -> Local ISP -> If found, fetches data from user else -> Regional ISP -> If found, fetches data from user else ->
+National Service Provider -> Router -> Multiple Routers associated -> Server 
+
+Basically, it's a request made by client through router who helps in finding the destination IP address.
+Router contains routing table which searches for IP address if not found, router sends requests to parent router and similarly goes on till server' IP address.
+
+Protocols : HTTP, FTP, SMTP
+
+IP address as IPv4 : Internet Protocol version 4. underlying technology that makes it possible for us to connect our devices to the web.
+32 bit IP address length.
+IP address as IPv6 : Internet Protocol version 6. underlying technology that makes it possible for us to connect our devices to the web.
+128 bit IP address length.
+
+
+
+
+
+
+
+
+
+
+
+
+

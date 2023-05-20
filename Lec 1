@@ -13,3 +13,60 @@ What's inside Web-app ?
 
 Full Stack Web Developer = Frontend + Backend + Databases
 e.g. MERN stack - MongoDb, Express.js, React, Node.js
+
+
+...........................................................................................................................................................\
+
+
+Network: Interconnected computing devices like pc, laptop, printer, etc. that can exchange data and share resources with each other.
+We can communicate, exchange resources, send/recieve messages through network.
+
+LAN: Local area network where interconnected network exists within one physical location such as in room, office, home, etc.
+MAN: Metropolitian area network where interconnected network exits between cities like kolkata, Mumbai, Delhi, Hyderabad.
+WAN: Wide area network where interconnected network exists between countries like India, Nepal, UAE, etc.
+
+Internet : It is a network of networks. Billions of devices are interconnected with each other.
+LAN+MAN+WAN = Internet. 
+
+WWW : World wide web 
+Web: Interconnected documents and resources accessed via internet.
+WWW is a service and a subset of internet.
+
+What is IP address?
+-> A unique numerical identifier for every device or network that connects to the internet.
+-> Typically assigned by ISP.
+
+What is browser?
+-> Tool for accessing websites, docs, resources, webapps.
+-> Chrome, Monzilla firefox, opera, safari. are examples of browsers.
+
+What is browser engine?
+-> It is an application used to render HTML,css,js code and other resources into an interactive visual representation on a client's device.
+-> Chrome uses Blink. Blink uses V8 engine.
+-> Firefox uses Gecko engine.
+-> Safari uses Webkit and Nitro.
+
+What are clients and servers?
+-> Relationship in which client requests a service or resource from server.
+
+There are various types of requests:
+1. get: client Fetch data request from server.
+2. post: client sends data which saves in server.
+3. put: client requests any updation in server.
+4. delete: client sends delete request to server.
+
+After request, the server starts processing and sends response to the client. 
+Request <---> Response   (Client <---> Servers) model
+
+Clients : Laptop, PC, Mobile, Browsers, Apps.
+Servers : Data servers, file server, app server, web server, email server, etc.
+
+
+When a client sends a request to URL,
+www.fb.com : Domain name
+It is first converted into IP address by DNS server. 121.43.62.51 IP address
+Once request is made to the IP address, facebook server starts processing and then it returns a response to the client.
+
+..................................................................................................................................................
+
+

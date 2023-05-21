@@ -16,4 +16,114 @@ Shortcuts
 3. Lorem 7
 Generates 7 random words 
 
-4. 
+4. class (.)  id (#)
+
+5. p{This is a paragraph}
+<p>This is a paragraph</p>
+
+6. nav>(ul>li)*3
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+    <ul>
+        <li></li>
+    </ul>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+
+
+div and span tag : Not semantic tag.
+div is used to create division in webpage. Block element. It takes entire width of webpage.
+span is used to take space as per content requirement. Inline element.
+
+
+
+HTML Lists
+ol  -> Ordered Lists
+ul  -> Unordered Lists
+
+
+
+HTML Tables
+-> Representation of data in the form of rows and columns.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <th></th>
+      <th colspan="3"></th>
+    </tr>
+    <tr>
+      <th rowspan="3"></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </tbody>
+</table>
+
+
+rowspan -> That <td> data will occupy no. of rows.
+colspan -> That <td> data will occupy no. of columns.
+
+How to create a table with rowspan and colspan?
+-> First arrange all data line by line using <td> and <th> using <tr>.
+-> If there are lesser data in next row then also enclose all data <td> <th> using <tr>.
+-> Continue till last row.
+-> Now see for rowspan and colspan. and then define the property as per given in the table.
+
+Class is similar but Id should be unique. Class is used for grouping elements.
+ID is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+
+HTML Forms.
+-> It is used to collect data from user and validate user's data with server.
+
+Tags used in Forms:
+1. <form></form>                              : To create HTML form for taking user input.
+2. <input type="text" id="name">              : Used to take user input as text, radio buttons, checkboxes, submit button, date, number, email, password.
+   <input type="radio" id="gender">           : Used to create radio button and both id's should match for single selection out of 2 else both will be selected. 
+   <input type="checkbox" id="course">        : Used to create checkboxes.
+   <input type="date" id="date">              : Used to take date input from user like DOB, YOP, etc.
+   <input type="file" id="myFile" name="Choose File" : Used to create a file upload button
+
+3. <label for="password">Enter Pass:</label>  : Used to create label for input. for attribute is compulsory. Input element id == label for attribute.
+   <input type="text" id="password">
+   
+4. <input type="submit" value="Click me">     : Used to create a submit button with a label Click me on the button.
+   <input type="reset" value="Reset">
+5. <button>Click me</button>                  : Similar to above button
+
+Form elements
+input
+label
+button
+placeholder : Faded text inside input box field.
+
+select -> Drop down
+option -> Drop down options
+<label for="selected">Choose your dish:</label>
+<select name="dishes" id="selected">
+   <option value="maggi">Maggi</option>
+   <option value="Kurkure">Kurkure</option>
+   <option value="chips">Chips</option>
+</select>
+    
+<textarea name="items" id="message" cols="50" rows="90"></textarea> : A plain text area to write reviews comments, compose email,etc. 
+
+<fieldset></fieldset> : Group entire code inside a box.
+<fieldset>
+<legend>This is the dummy HTML Form</legend> : Used to give caption to the fieldset as heading of box.
+</fieldset>
+
+<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"> : Showing a submit button image
+

@@ -1,0 +1,19 @@
+Emmet is the plugin installed in VS code to write HTML code through it's shortcut features
+
+Shortcuts
+1. ul>li*3
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+2. p+a+ul
+<p></p>
+<a href=""></a>
+<ul></ul>
+
+3. Lorem 7
+Generates 7 random words 
+
+4. 

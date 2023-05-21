@@ -91,7 +91,8 @@ HTML Forms.
 Tags used in Forms:
 1. <form></form>                              : To create HTML form for taking user input.
 2. <input type="text" id="name">              : Used to take user input as text, radio buttons, checkboxes, submit button, date, number, email, password.
-   <input type="radio" id="gender">           : Used to create radio button and both id's should match for single selection out of 2 else both will be selected. 
+   <input type="radio" id="male" name="gender">: Used to create radio button and both name attribute should match for single selection out of 2 else both will be selected. 
+   <input type="radio" id="female" name="gender">
    <input type="checkbox" id="course">        : Used to create checkboxes.
    <input type="date" id="date">              : Used to take date input from user like DOB, YOP, etc.
    <input type="file" id="myFile" name="Choose File" : Used to create a file upload button

@@ -128,3 +128,47 @@ option -> Drop down options
 
 <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"> : Showing a submit button image
 
+
+
+Xtraaaaas
+
+1. To make a frequently asked qns UI. On clicking it shows answer dropdown menu.
+    
+<details>
+    <summary>What is your name?</summary>
+    My name is Sambit Sahoo
+</details>
+
+Output: 
+
+> What is your name?        // On clicking > It will show answers in dropdown menu as 
+My name is Sambit Sahoo
+
+
+2. marquee tag
+
+<marquee width="60%" direction="right" height="100px" scrollamount="1">           // marquees speed can be changed using scrollamount attribute 
+This is a sample scrolling text that has scrolls texts to right.
+</marquee>
+
+Seen mostly in older banking websites, other websites showing notifications etc. uses marquee tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

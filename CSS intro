@@ -1,1 +1,16 @@
-CSS depends on : cascading, specificity, inheritance.
+CSS depends on which factors : cascading, specificity, inheritance.
+What is Cascading ?  : An algorithm for solving conflicts where multiple CSS rules applies to an HTML element.
+3 types of CSS : Inline, Internal, External
+CSS properties are applied where inline has highest specificity. Internal and External specificity is decided by top to bottom approach.
+What are selectors ? : Way to target HTML elements and apply CSS properties to it.
+element : p, h1, img.......
+id : #idname
+class : .classname
+group selectors : h1,p { property: value}     .container .box{ property: value }
+line-height : 9px // 9 px gap between 2 lines
+
+
+
+
+
+

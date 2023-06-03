@@ -8,8 +8,7 @@ id : #idname
 class : .classname
 group selectors : h1,p { property: value}     .container .box{ property: value }
 line-height : 9px // 9 px gap between 2 lines
-
-
+We cannot add width or height in span tag.
 
 
 
